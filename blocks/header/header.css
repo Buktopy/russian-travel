@@ -1,22 +1,28 @@
 .header {
-    width: 92.5%;
+    max-width: 1184px;
     margin: 28px auto auto auto;
     display: flex;
     justify-content: space-between;
 }
 
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .header {
-        width: 92%;
+        max-width: 928px;
     }
     
 }
 
-
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
     .header {
-        width: 90%;
+        max-width: 720px;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .header {
+        max-width: 288px;
+        margin: 16px auto auto auto;
     }
     
 }
