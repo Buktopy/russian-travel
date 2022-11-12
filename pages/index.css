@@ -12,8 +12,8 @@
 /*Блок lead*/
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__cover/lead__cover.css);
 @import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__image/test.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 /*Блок intro*/
 @import url(../blocks/intro/intro.css);
