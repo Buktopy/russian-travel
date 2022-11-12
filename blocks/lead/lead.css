@@ -1,4 +1,5 @@
 .lead {
     display: flex;
     flex-direction: column;
+    margin: 56px auto auto auto;
 }
