@@ -8,7 +8,7 @@
     line-height: 104%;
     text-align: center;
     color: #FFFFFF;
-    margin: auto;
+    margin: 56px auto auto auto;
 }
 
 @media screen and (max-width:1024px) {

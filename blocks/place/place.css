@@ -8,8 +8,12 @@
     grid-template-areas:
         "place__title place__website"
         "place__image place__container";
-    margin: 92px auto auto auto;
+    margin: auto;
     padding: 0;
+}
+
+.place:not(:last-child) {
+    margin-bottom: 80px;
 }
 
 @media screen and (max-width:1024px) {

@@ -7,5 +7,17 @@ line-height: 150%;
 color: #FFFFFF;
 list-style-type: none;
 padding: 0;
-margin: 33px 0 0 0;
+margin: 34px 0 0 0;
+}
+
+@media screen and (max-width:1024px) {
+    .intro__list {
+        margin-top: 33px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .intro__list {
+        margin-top: 34px;
+    }
 }

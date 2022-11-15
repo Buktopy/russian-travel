@@ -14,7 +14,8 @@
         margin-left: 24px;
         max-width: 720px;
         height: 100%;
-        margin-bottom: 33px;
+        margin-bottom: 88px;
+        margin-top: 88px;
     }
 }
 
@@ -22,6 +23,7 @@
     .intro {
         margin-left: 16px;
         max-width: 288px;
-        margin-bottom: 62px;
+        margin-bottom: 64px;
+        margin-top: 64px;
     }
 }
