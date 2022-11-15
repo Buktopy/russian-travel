@@ -8,7 +8,7 @@
     grid-template-areas:
         "place__title place__website"
         "place__image place__container";
-    margin: 0;
+    margin: 92px auto auto auto;
     padding: 0;
 }
 
@@ -17,6 +17,9 @@
         column-gap: 32px;
         grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
         grid-template-rows: minmax(min-content, 152px) minmax(min-content, 46px);
+    }
+    .place:not(:last-child) {
+        margin-bottom: 80px;
     }
 }
 
@@ -27,17 +30,23 @@
         column-gap: 28px;
         row-gap: 48px;
     }
+    .place:not(:last-child) {
+        margin-bottom: 73px;
+    }
 }
 
 @media screen and (max-width:320px) {
     .place {
         grid-template-areas:
-        "place__title"
-        "place__website"
-        "place__image"
-        "place__container";
+            "place__title"
+            "place__website"
+            "place__image"
+            "place__container";
         grid-template-columns: minmax(min-content, 320px);
         grid-template-rows: minmax(min-content, 35px) minmax(min-content, 46px) minmax(min-content, 320px) minmax(min-content, max-content);
         row-gap: 32px;
+    }
+    .place:not(:last-child) {
+        margin-bottom: 50px;
     }
 }
