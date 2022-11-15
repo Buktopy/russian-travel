@@ -17,3 +17,19 @@
         grid-template-rows: repeat(auto-fit, minmax(min-content, 225px));
     }
 }
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 352px));
+        grid-template-rows: repeat(auto-fit, minmax(min-content, 264px));
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        gap: 12px;
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 288px));
+        grid-template-rows: repeat(auto-fit, minmax(min-content, 216px));
+    }
+}
