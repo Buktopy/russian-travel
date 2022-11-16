@@ -39,6 +39,22 @@
     }
 }
 
+@media screen and (max-width:695px) {
+    .place {
+        grid-template-areas:
+            "place__title"
+            "place__website"
+            "place__image"
+            "place__container";
+        grid-template-columns: minmax(min-content, 695px);
+        grid-template-rows: minmax(min-content, 35px) minmax(min-content, 46px) minmax(min-content, 320px) minmax(min-content, max-content);
+        row-gap: 32px;
+    }
+    .place:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .place {
         grid-template-areas:

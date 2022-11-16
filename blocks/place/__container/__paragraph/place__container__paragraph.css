@@ -24,6 +24,13 @@
     }
 }
 
+@media screen and (max-width:695px) {
+    .place__container__paragraph {
+        margin: auto;
+        max-width: 650px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .place__container__paragraph {
         margin: auto;
@@ -34,4 +41,3 @@
         margin-top: 25px;
     }
 }
-

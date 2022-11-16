@@ -12,6 +12,17 @@
     margin-right: 18px;
 }
 
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 625px) {
+    .footer__link:not(:last-child) {
+        margin-bottom: 28px;
+        margin-right: 0;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__link:not(:last-child) {
         margin-bottom: 32px;
