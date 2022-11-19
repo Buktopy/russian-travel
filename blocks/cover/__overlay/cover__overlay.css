@@ -2,7 +2,7 @@
     background-image: url(../../../images/__background-Baikal.png);
     background-repeat: no-repeat;
     -moz-background-size: cover;
-    background-size: 100% auto;
+    background-size: cover; /*При значении cover блок как раз таки и не тянется за размером секции, а "заезжает" за него. при прошлом решении(100% auto) фон корректно масштабировался без заездов*/
     background-position: center;
     box-sizing: border-box;
     display: flex;

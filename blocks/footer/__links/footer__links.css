@@ -4,7 +4,13 @@
 
 @media screen and (max-width: 625px) {
     .footer__links {
-        display: flex;
         flex-direction: column;
+        margin-bottom: 54px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        margin-bottom: 48px;
     }
 }
