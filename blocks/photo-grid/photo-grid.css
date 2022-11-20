@@ -21,14 +21,14 @@
 @media screen and (max-width: 768px) {
     .photo-grid {
         gap: 16px;
-        grid-template-columns: repeat(auto-fit, minmax(min-content, 340px));
-        grid-template-rows: repeat(auto-fit, minmax(min-content, 225px));
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 352px));
+        grid-template-rows: repeat(auto-fit, minmax(min-content, 264px));
     }
 }
 
-@media screen and (max-width: 695px) {
+@media screen and (max-width: 719px) {
     .photo-grid {
-        grid-template-columns: repeat(auto-fit, minmax(min-content, 425px));
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 515px));
         grid-template-rows: repeat(auto-fit, minmax(min-content, 318px));
     }
 }

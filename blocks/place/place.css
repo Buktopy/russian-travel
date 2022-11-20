@@ -36,14 +36,14 @@
     }
 }
 
-@media screen and (max-width:695px) {
+@media screen and (max-width:719px) {
     .place {
         grid-template-areas:
             "place__title"
             "place__website"
             "place__image"
             "place__container";
-        grid-template-columns: minmax(min-content, 695px);
+        grid-template-columns: minmax(min-content, 645px);
         grid-template-rows: minmax(min-content, 35px) minmax(min-content, 46px) minmax(min-content, 320px) minmax(min-content, max-content);
         row-gap: 32px;
         column-gap: 0;
