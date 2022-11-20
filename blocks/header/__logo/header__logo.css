@@ -1,12 +1,14 @@
 .header__logo {
     display: block;
+    background-image: url(../../../images/image__logo.svg);
     max-width: 176px;
-    max-height: 52px;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media screen and (max-width:320px) {
     .header__logo {
-        width: 100%;
-        height: 100%;
+       background-image: url(../../../images/header__logo-320px.svg);
+       max-width: 142px;
     }
 }
