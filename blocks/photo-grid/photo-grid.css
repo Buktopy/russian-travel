@@ -6,7 +6,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     gap: 16px;
-    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -29,7 +29,7 @@
 @media screen and (max-width: 719px) {
     .photo-grid {
         grid-template-columns: repeat(auto-fit, minmax(min-content, 515px));
-        grid-template-rows: repeat(auto-fit, minmax(min-content, 318px));
+        grid-template-rows: repeat(auto-fit, minmax(min-content, 321px));
     }
 }
 
